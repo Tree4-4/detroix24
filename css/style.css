@@ -40,8 +40,8 @@ body {
 
 .content-box {
     width: calc(100% / 3);
-    border: 1px solid red;
-    padding: 20px 20px 40px;
+    border: 1px solid rgb(0, 38, 255);
+    padding: 20px 20px 20px;
     float: left;
     border-top: 1px sloid #aaa;
     border-right: 1px solid #aaa;
@@ -61,7 +61,7 @@ body {
 .content-img {
     display: block;
     width: 35%;
-    display: inline;
+    text-align: left;
 }
 
 .content-text {
