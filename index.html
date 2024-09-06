@@ -6,14 +6,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<!--<link rel="stylesheet" href="css/style.css">-->
+<link rel="stylesheet" href="css/style.2.css">
     <title>Detroix</title>
 </head>
 <body>
     <header class="header" id="header">
         <section class="section" id="headerSection1">
             <div class="container">
-                <div class="row">
+                <div class="row" id="hs1Row">
                     <p id="hs1Text">
                         <a href="#" class="hs1-link">www.demolink.org</a>
                     </p>
@@ -31,16 +32,16 @@
                             <a href="#" class="hs1-link">help</a>
                         </li>
                     </ul>
-                    <div class="clear"></div>
+                    <!--<div class="clear"></div>-->
                 </div>
             </div>
         </section>
         <section class="section" id="headerSection2">
             <div class="container">
-                <div class="row">
-                <h1 id="logo">
+                <div class="row" id="hs2Row">
+                    <h1 id="logo">
                         <img src="images3/logo.jpg" alt="Detroix" class="logo-img" />
-                        <span class="visually-hidden">detriox</span>
+                        <span class="visually-hidden" id="visually-hidden"></span>
                     </h1>
                     <nav id="topNav">
                         <ul id="hs2List">
@@ -60,10 +61,10 @@
                                 <a href="#" class="hs2-link">contacts</a>
                             </li>
                         </ul>
+                    </nav>
                 </div>
-                </div>
-            </nav>
-            <div class="clear"></div>
+            </div>
+            <!--<div class="clear"></div>-->
         </section>
     </header>
     <main class="main" id="main">
@@ -76,12 +77,12 @@
                     <div class="slider"></div>
                     <div class="slider"></div>
                 </div>
-                <div class="clear"></div>
+                <!--<div class="clear"></div>-->
             </div>
         </section>
         <section class="section" id="mainSection2">
             <div class="container">
-                <div class="row">
+                <div class="row" id="msRow">
                     <div class="content-box" id="smart">
                         <h2 class="content-heading">smart</h2>
                         <img src="images3/smart.jpg" alt="puzzle piece" class="content-img" />
@@ -101,7 +102,7 @@
                         <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio itaque sed libero reprehenderit culpa, asperiores optio vel blanditiis error nulla, repudiandae repellat aliquam sapiente, expedita nemo deserunt.</p>
                         <button class="more-btn">more</button>
                     </div>
-                    <div class="clear"></div>
+                    <!--<div class="clear"></div>-->
                 </div>
             </div>
         </section>
@@ -109,86 +110,107 @@
     <footer class="footer" id="footer">
         <section class="section" id="footerSection1">
             <div class="container">
-                <div class="row">
+                <div class="row" id="fsRow">
                     <div class="footer-content" id="services">
-                        <h2 class="footer-heading">services</h2>
-                        <ul id="servicesList">
-                            <li class="services-item">
-                                <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
-                            </li>
-                            <li class="services-item"><a href="#" class="services-link">Lorem ipsum dolor sit.</li>
-                            <li class="services-item"><a href="#" class="services-link">Lorem ipsum dolor sit.</li>
-                            <li class="services-item"><a href="#" class="services-link">Lorem ipsum dolor sit.</li>
-                            <li class="services-item"><a href="#" class="services-link">Lorem ipsum dolor sit.</li>
-                            <li class="services-item"><a href="#" class="services-link">Lorem ipsum dolor sit.</li>
-                            <li class="services-item"><a href="#" class="services-link">Lorem ipsum dolor sit.</li>
-                            <li class="services-item"><a href="#" class="services-link">Lorem ipsum dolor sit.</li>
-                        </ul>
-                        <button class="more-btn">more</button>
+                        <div class="footer-mini-box">
+                            <h2 class="footer-heading">services</h2>
+                            <ul id="servicesList">
+                                <li class="services-item">
+                                    <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                </li>
+                                <li class="services-item">
+                                    <a href="#" class="services-link">Lorem ipsum dolor sit.</a>
+                                </li>
+                            </ul>
+                            <button class="more-btn footer-btn">more</button>
+                        </div>
                     </div>
                     <div class="footer-content" id="opps">
-                        <h2 class="footer-heading">opportunities</h2>
-                        <ul id="oppsList">
-                            <li class="opps-item">
-                                <h3 class="opps-heading">
-                                    <a href="#" class="opps-link">Lorem ipsum dolor sit.</a>
-                                </h3>
-                                <p class="opps-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa similique distinctio veritatis ea et amet accusantium vel aspernatur veniam eaque?</p>
-                            </li>
-                            <li class="opps-item">
-                                <h3 class="opps-heading">
-                                    <a href="#" class="opps-link">Lorem ipsum dolor sit.</a>
-                                </h3>
-                                <p class="opps-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa similique distinctio veritatis ea et amet accusantium vel aspernatur veniam eaque?</p>
-                            </li>
-                        </ul>
-                        <button class="more-btn">more</button>
+                        <div class="footer-mini-box">
+                            <h2 class="footer-heading">opportunities</h2>
+                            <ul id="oppsList">
+                                <li class="opps-item">
+                                    <h3 class="opps-heading">
+                                        <a href="#" class="opps-link">Lorem ipsum dolor sit.</a>
+                                    </h3>
+                                    <p class="opps-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa similique distinctio veritatis ea et amet accusantium vel aspernatur veniam eaque?</p>
+                                </li>
+                                <li class="opps-item">
+                                    <h3 class="opps-heading">
+                                        <a href="#" class="opps-link">Lorem ipsum dolor sit.</a>
+                                    </h3>
+                                    <p class="opps-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa similique distinctio veritatis ea et amet accusantium vel aspernatur veniam eaque?</p>
+                                </li>
+                            </ul>
+                            <button class="more-btn footer-btn">more</button>
+                        </div>
                     </div>
                     <div class="footer-content" id="news">
-                        <h2 class="footer-heading">news</h2>
-                        <ul id="newsList">
-                            <li class="news-item">
-                                <div class="date-div" id="dateDiv1">
-                                    <span class="date">21</span>
-                                    <span class="month">nov</span>
-                                </div>
-                                <div class="news-block">
-                                    <h3 class="news-heading">
-                                        <a href="#" class="news-link"> Lorem, ipsum dolor.</a>
-                                    </h3>
-                                    <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a!</p>
-                                </div>
-                                <div class="clear"></div>
-                            </li>
-                            <li class="news-item">
-                                <div class="date-div" id="dateDiv2">
-                                <span class="date">14</span>
-                                <span class="month">nov</span>
-                            </div>
-                                <div class="news-block">
-                                    <a href="#" class="news-link">Lorem, ipsum dolor.</a>
-                                    <h3 class="news-heading"></h3>
-                                    <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a!</p>
-                                </div>
-                                <div class="clear"></div>
-                            </li>
-                            <li class="news-item">
-                                <div class="date-div" id="dateDiv3">
-                                <span class="date">12</span>
-                                <span class="month">nov</span>
-                                </div>
-                                <div class="news-block">
-                                    <h3 class="news-heading">
-                                        <a href="#" class="news-link">Lorem, ipsum dolor.</a>
+                        <div class="footer-mini-box">
+                            <h2 class="footer-heading">news</h2>
+                            <ul id="newsList">
+                                <li class="news-item">
+                                    <div class="date-div" id="dateDiv1">
+                                        <span class="date">21</span>
+                                        <span class="month">nov</span>
+                                    </div>
+                                    <div class="news-block">
+                                        <h3 class="news-heading">
+                                            <a href="#" class="news-link"> Lorem, ipsum dolor.</a>
                                         </h3>
-                                    <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a!</p>
-                                </div>
-                                <div class="clear"></div>
-                            </li>
-                        </ul>
-                        <button class="more-btn">more</button>
+                                        <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a!</p>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                </li>
+                                <li class="news-item">
+                                    <div class="date-div" id="dateDiv2">
+                                        <span class="date">14</span>
+                                        <span class="month">nov</span>
+                                    </div>
+                                    <div class="news-block">
+                                        <h3 class="news-heading"> 
+                                            <a href="#" class="news-link">Lorem, ipsum dolor.</a>
+                                        </h3>
+                                        <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a!</p>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                </li>
+                                <li class="news-item">
+                                    <div class="date-div" id="dateDiv3">
+                                        <span class="date">12</span>
+                                        <span class="month">nov</span>
+                                    </div>
+                                    <div class="news-block">
+                                        <h3 class="news-heading">
+                                            <a href="#" class="news-link">Lorem, ipsum dolor.</a>
+                                        </h3>
+                                        <p class="news-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, a!</p>
+                                    </div>
+                                    <!--<div class="clear"></div>-->
+                                </li>
+                            </ul>
+                            <button class="more-btn footer-btn">more</button>
+                        </div>
+                    <!--<div class="clear"></div>-->
                     </div>
-                    <div class="clear"></div>
                 </div>
             </div>
         </section>
